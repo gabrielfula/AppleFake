@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+
+* {
+    margin: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+
+header {
+    top: 0;
+    width: 100%;
+    align-items: center;
+    background-color: #323232;
+    position: fixed;
+    height: 3.5rem;
+    z-index: 9;
+}
+
+.navbarr {
+    align-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 150px;
+}
+
+.link-navbar {
+    text-decoration: none;
+    padding: 10px;
+    color: #888787;
+}
+.link-navbar:hover {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(216, 216, 216);
+    transition: .5s;
+}
+
+
+/* MAIN */
+
+
+
+
+main {
+    padding-top: 100px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.text-ipad {
+    padding: 200px;
+}
+
+.link-buy{ 
+    font-size: 1.2rem;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.link-buy:hover {
+    text-decoration: underline;
+}
+
+/* GRID */
+
+.grid {
+    position: relative;
+    padding-top: 2rem;
+    left: 0;
+}
+
+p {
+    font-size: 1.3rem;
+    
+}
+
+
+.iphone14-pro,
+.ipad-pro {
+    background-color: #000;
+    height: 45rem;
+
+}
+
+.img-pro {
+    height: 90%;
+    position: relative;
+    bottom: 40px;
+    padding-top: 20px;
+}
+
+.iphone14-plus{
+    height: 45rem;
+    background-color: #fff;
+}
+.apple-tv{
+    height: 45rem;
+    background-color: #fff;
+    padding-top: 35px;
+    
+}
+
+.font-black {
+    font-size: 3rem;
+    
+}
+
+.img-plus {
+   position: relative;
+   right: 60px;
+   top: 11rem;
+}
+
+.font-white{
+    color: #fff;
+    font-size: 3rem;
+    padding-top: 10px;
+}
+
+h6 {
+    color: rgb(107, 107, 107);
+}
+
+.apple-tv-logo {
+    position: absolute;
+    left: 20rem;
+    top: 43.3rem;
+    height: 10rem;
+}
+
+/* CAROUSEL */
+
+.carousel {
+    margin: 80px 100px;
+    border: 0.5px #000 solid;
+    z-index: auto;
+}
+
+
+
+
+/* PAGINA IPHONE */
+
+
+.colums {
+    width: 100%;
+}
+
+.comentario-header {
+    font-size: 0.8rem;
+}
+
+.space-comentario {
+    text-align: center;
+} 
+
+.text-center {
+    padding-top: 2.5rem;
+}
+
+.font-gradient {
+    background: -webkit-linear-gradient(#2FA2B7, #728CF4, #BB71D6, #F45291, #ED4153);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}   
+
+
+.comprar-saiba {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.comprar-saiba a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.btn-comprar {
+    border: none;
+    background-color: #0077ED;
+    border-radius: 1rem;
+    padding: 7.5px 10px;
+    color: #fff;
+}
+
+.iphone14-big {
+    width: 80rem;
+    
+}
+
+.background-iphone14 {
+    background-color: #fff;
+}
+
+.black-iphone14 {
+    background-color: #000;
+    padding-top: 3rem;
+}
+
+h5 {
+    color: rgb(255, 255, 255);
+}
+
+.option-iphone {
+    padding-top: 2rem;
+    text-align: center;
+}
