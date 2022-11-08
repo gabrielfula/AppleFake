@@ -10,6 +10,8 @@
 }
 
 
+/* CONTEUDO CABEÇALHO PRINCIPAL */
+
 header {
     top: 0;
     width: 100%;
@@ -47,8 +49,7 @@ li {
 }
 
 
-/* MAIN */
-
+/* CONTEUDO IPAD */
 
 
 
@@ -58,7 +59,6 @@ main {
 
 .img {
     width: 100%;
-    height: 100%;
 }
 
 .text-ipad {
@@ -75,7 +75,7 @@ main {
     text-decoration: underline;
 }
 
-/* GRID */
+/* CONTEUDO  IPHONES */
 
 .grid {
     position: relative;
@@ -85,7 +85,6 @@ main {
 
 p {
     font-size: 1.3rem;
-    
 }
 
 
@@ -96,10 +95,8 @@ p {
 
 }
 
-.img-pro {
-    height: 90%;
-    position: relative;
-    bottom: 40px;
+.iphone14-pro img {
+    height: 85%;
     padding-top: 20px;
 }
 
@@ -107,11 +104,11 @@ p {
     height: 45rem;
     background-color: #fff;
 }
+
 .apple-tv{
     height: 45rem;
     background-color: #fff;
     padding-top: 35px;
-    
 }
 
 .font-black {
@@ -129,17 +126,19 @@ p {
     color: #fff;
     font-size: 3rem;
     padding-top: 10px;
+    z-index: 8;
 }
 
-h6 {
+.font-apple-tv {
     color: rgb(107, 107, 107);
 }
 
 .apple-tv-logo {
     position: absolute;
-    left: 20rem;
-    top: 43.3rem;
-    height: 10rem;
+    left: 13rem;
+    top: 43.2rem;
+    z-index: 3;
+    width: 30%;
 }
 
 /* CAROUSEL */
@@ -202,7 +201,6 @@ h6 {
 
 .iphone14-big {
     width: 80rem;
-    
 }
 
 .background-iphone14 {
@@ -214,11 +212,48 @@ h6 {
     padding-top: 3rem;
 }
 
-h5 {
-    color: rgb(255, 255, 255);
+.apple-tv h5 {
+    color: #000;
+    padding-top: 1rem;
 }
+
+
+.ipad-pro img {
+    background-size: contain;
+    width: 100%;
+}
+/* CONTEUDO OPTION IPHONES  */
 
 .option-iphone {
     padding-top: 2rem;
     text-align: center;
+}
+
+.option-iphone h5 {
+    color: rgb(0, 0, 0);
+}
+
+.option-iphone h6 {
+    color: rgb(202, 62, 11);
+}
+
+.option-iphone p {
+    font-size: 1rem;
+}
+
+.hidden-new {
+    padding-top: 1.5rem;
+}
+
+.especificacoes-iphone strong {
+    font-size: 1.1rem;
+}
+
+
+.dynamic-island {
+    padding-top: 2rem
+}
+
+.especificacoes-iphone .icon-sos {
+    padding: 3rem;
 }
