@@ -105,11 +105,7 @@ p {
     background-color: #fff;
 }
 
-.apple-tv{
-    height: 45rem;
-    background-color: #fff;
-    padding-top: 35px;
-}
+
 
 .font-black {
     font-size: 3rem;
@@ -117,9 +113,8 @@ p {
 }
 
 .img-plus {
-   position: relative;
-   right: 60px;
-   top: 11rem;
+    height: 60%;
+   padding-right: ;
 }
 
 .font-white{
@@ -129,16 +124,17 @@ p {
     z-index: 8;
 }
 
-.font-apple-tv {
-    color: rgb(107, 107, 107);
+
+/* APPLE TV  */
+
+.apple-tv {
+    top: 0;
+    background-color: #BB71D6;
 }
 
-.apple-tv-logo {
-    position: absolute;
-    left: 13rem;
-    top: 43.2rem;
-    z-index: 3;
-    width: 30%;
+.apple-logo-tv {
+    width: 60%;
+    
 }
 
 /* CAROUSEL */

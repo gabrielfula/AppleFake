@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+
+* {
+    margin: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+
+/* CONTEUDO CABEÇALHO PRINCIPAL */
+
+header {
+    top: 0;
+    width: 100%;
+    align-items: center;
+    background-color: #323232;
+    position: fixed;
+    height: 3.5rem;
+    z-index: 9;
+}
+
+.navbarr {
+    align-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 150px;
+}
+
+.link-navbar {
+    text-decoration: none;
+    padding: 10px;
+    color: #888787;
+}
+.link-navbar:hover {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(216, 216, 216);
+    transition: .5s;
+}
+
+
+/* CONTEUDO ECONOMIZE */
+
+
+.economy {
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.new-ipad h1{
+    font-size: 3rem;
+}
+
+
+
+.economy h6,
+.economy a{
+    color: #fff;
+    display: flex;
+    font-size: 12px;
+}
+
+.new-ipad {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10rem;
+}
+
+.new-ipad p {
+    font-size: 2.4rem;
+}
+
+.new-ipad a,
+.new-ipad a:hover {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* CONTEUDO CORES IPAD */
+
+.ipad-colors {
+    background-color: #fff;
+}
+
+.ipad-colors .text-center {
+    padding-top: 5rem;
+}
+
+.ipad-colors img {
+    width: 100%;
+}
+
+h6 {
+    color: rgb(165, 25, 0);
+}
+
+strong {
+    font-size: 2rem;
+}
+
+h5, p{
+    font-size: 19px;
+}
+
+.align-text {
+    padding: 6rem 6rem;
+    
+}
+
+.link-buy{ 
+    font-size: 1.2rem;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.link-buy:hover {
+    text-decoration: underline;
+    animation: none;
+}
+
+.btn-buy,
+.btn-buy:hover {
+    font-size: 1.2rem;
+    background-color: #0077ED;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 8px;
+    border-radius: 20px;
+    animation: none;
+}
+
+
+/* CONTEUDO IPAD PRO */
+
+.ipad-pro {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+}
+
+.ipad-pro .text-center{
+    padding: 9rem;
+}
+
+/* CONTEUDO IPAD IDEAL */
+
+.ideal-ipad { 
+    padding-top: 7rem;
+}
+.ideal-ipad .row {
+    padding-top: 4rem;
+}
+
+.ideal-ipad img {
+    width: 60%;
+}
+
+
+.ideal-ipad h4 {
+    padding-top: 5px;
+}
+
+.ideal-ipad .ipad-pad {
+    padding-top: 25px;
+}
+
+.ideal-ipad h5 {
+    font-size: 13px;
+    padding-top: 40px
+}
+
+.space {
+    padding-top: 35px;
+}
+
+.space-mini {
+    padding-top: 35px;
+}
+
+.space-air {
+    padding-top: 40px;
+}
+
+.space-pro {
+    padding-top: 30px;
+}
+
+.row a{
+    padding: 5px 5px;
+    font-size: 13px;
+}
+
