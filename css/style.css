@@ -66,8 +66,7 @@ main {
 }
 
 .link-buy{ 
-    font-size: 1.2rem;
-    padding: 7px;
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -113,8 +112,8 @@ p {
 }
 
 .img-plus {
-    height: 60%;
-   padding-right: ;
+    width: 100%;
+    padding-top: 12.4rem;
 }
 
 .font-white{
@@ -129,12 +128,15 @@ p {
 
 .apple-tv {
     top: 0;
-    background-color: #BB71D6;
+    background-color: #fff;
 }
 
 .apple-logo-tv {
     width: 60%;
-    
+}
+
+.apple-tv .control {
+    width: 60%;
 }
 
 /* CAROUSEL */
